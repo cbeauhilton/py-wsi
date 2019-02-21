@@ -9,13 +9,13 @@ description = """Python package for dealing with whole slide images (.svs) for m
 
 here = path.abspath(path.dirname(__file__))
 
-with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
-    long_description = f.read()
+#with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
+#    long_description = f.read()
 
 setup(name='py_wsi',
       version='1.1',
       description=description,
-      long_description=long_description,
+     # long_description=long_description,
       url='https://github.com/ysbecca/py-wsi',
       author='Rebecca Stone',
       author_email='ysbecca@gmail.com',
